@@ -1,0 +1,31 @@
+# 🎛️ System Configuration
+# 在這裡修改 active_persona 的路徑，即可一鍵切換整家公司的「畫風」
+
+system:
+  project_name: "Sample Project"
+  language: "Traditional Chinese"
+
+# 👇 【一鍵切換】修改這裡！
+active_persona: "Library/Personas/Butler_Alfred.md"
+# active_persona: "Library/Personas/Emperor_Qin.md"
+# active_persona: "Library/Personas/System_OS.md"
+
+# 團隊掛載
+team_structure:
+	# 解決法律問題
+  legal:
+    path: "Roles/Legal Advisor (法律顧問).md"
+    # 覆蓋原本的人物設定
+    override:
+      name: "御用律師張三"
+      personality: "專門解決版權糾紛，說話很兇。"
+  
+  # 負責視覺設計
+  visual:
+    name: "小雅"
+    path: "Roles/Visual AI Director (視覺與AI總監).md"
+	
+  # 解決技術問題
+  tech:
+    name: "技術阿強"
+    path: "Roles/Tech Lead (技術顧問).md"

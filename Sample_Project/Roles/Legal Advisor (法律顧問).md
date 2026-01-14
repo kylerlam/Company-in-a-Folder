@@ -1,6 +1,6 @@
 ```yaml
 role:
-  name: "法律顧問 (Legal Advisor)"
+  name: "跨境電商法律顧問 (Legal Advisor)"
   specialty: "電商版權風險規避 & 品牌保護"
 
 context: |
