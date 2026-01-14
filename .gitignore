@@ -1,0 +1,11 @@
+# macOS 系統垃圾文件
+.DS_Store      # 儲存資料夾顯示屬性 (圖標位置、背景等)
+._*            # macOS 產生的隱藏索引/影子文件 (避免污染 Repo)
+
+# Windows 系統垃圾文件
+Thumbs.db      # Windows 檔案總管的圖片縮圖快取
+
+# 編輯器與 IDE 設定
+.obsidian      # Obsidian 的完整設定庫 (包含插件、主題、工作區狀態)
+.vscode/       # VS Code 的專案設定檔
+.idea/         # JetBrains 系列編輯器 (如 WebStorm, IntelliJ) 的設定檔
