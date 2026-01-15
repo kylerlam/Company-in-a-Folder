@@ -6,7 +6,7 @@ system:
   language: "Traditional Chinese"
 
 # 👇 【一鍵切換】修改這裡！
-active_persona: "Library/Personas/Butler_Alfred.md"
+active_persona: "Library/Agents/Butler_Alfred.md"
 # active_persona: "Library/Personas/Emperor_Qin.md"
 # active_persona: "Library/Personas/System_OS.md"
 
